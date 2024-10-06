@@ -18,6 +18,15 @@ export const projectsFile1 = [
         demo: "https://simmisheetaljain.github.io/html-bookmymeal.com/",
         tech: ["Core Java", "Swing", "AWT"],
         flag: true
+    },
+    {
+        name: "Hospital Management System",
+        desc: "The software developed is Hospital Management System Software that is designed by Sheetal Jain and Sachin Mahor.It has been designed keeping in mind today’s complex healthcare system’s requirements and the importance of TIME.",
+        github: "",
+        image: HMS,
+        demo: "https://simmisheetaljain.github.io/html-bookmymeal.com/",
+        tech: ["Core Java", "Swing", "AWT"],
+        flag: true
     }
 ]
 
