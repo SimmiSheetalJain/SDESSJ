@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
-import girl from "../assets/hero/girl.jpg";
+import girl from "../assets/hero/Sheetal.jpg";
 import TextHighlight from "../components/HomeComponents/TextHighlight";
 import TextAnimation from "../components/HomeComponents/TextAnimation";
 import Button from "../components/HomeComponents/Button";
@@ -20,11 +20,7 @@ const Home = () => {
             <TextAnimation />
           </p>
           <p className="mt-3 text-gray-400 text-base sm:text-lg md:text-[24px] mb-3 md:mb-4"> {/* Adding Tailwind CSS classes */}
-            I am first year Artificial Intelligence and Machine Learning student at LNCT Bhopal. Primary 
-            interested in Data Science.
-          </p>
-          <p className="text-gray-400 text-base sm:text-lg mb-5 md:text-[24px]"> {/* Adding Tailwind CSS classes */}
-            I am interested learning new skills and implement in real life
+            I am an Artificial Intelligence , Machine Learning, and Deep Learning Enthausiast. I have a deep interest in building innovative solution. Have a glance of my projects and connect with me on LinkedIn. 
           </p>
           <Button
             active={true}

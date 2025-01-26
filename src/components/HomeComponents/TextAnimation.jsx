@@ -2,7 +2,7 @@ import React from 'react'
 import {TypeAnimation} from "react-type-animation"
 
 const TextAnimation = () => {
-    const array = ["I'm Data Analyst",1000, "I'm Content Writer", 1000]
+    const array = ["I'm a System Engineer",1000, "I'm an AI Enthausiast", 1000]
   return (
     <div>
         <TypeAnimation 
