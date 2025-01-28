@@ -9,3 +9,17 @@
     padding-bottom: 10px;
     box-sizing: border-box;
 }
+
+.findMeElsewhere {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .findMeElsewhere a {
+    transition: color 0.3s ease;
+  }
+  
+  .findMeElsewhere a:hover {
+    color: #03fcc6;
+  }
+  
