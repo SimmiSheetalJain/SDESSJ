@@ -19,11 +19,12 @@ const Navbar = () => {
               menuIcon     
             } alt="menu-button"  onClick={handleMenu}/>
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen} text-[#5cc8b4] font-bold`}>
-                <li><Link to="/about" className={styles.menuItem}>About</Link></li>
-                <li><Link to="/skills" className={styles.menuItem}>Skills</Link></li>
+                {/* <li><Link to="/about" className={styles.menuItem}>About</Link></li> */}
+                <li><Link to="/skills" className={styles.menuItem}>Skills & Certifications</Link></li>
                 <li><Link to="/coding"className={styles.menuItem}>Articles</Link></li>
                 <li><Link to="/projects" className={styles.menuItem}>Projects</Link></li>
-                <li><Link to="/contact" className={styles.menuItem}>Contact</Link></li>
+                <li><Link to="/event" className={styles.menuItem}>Event</Link></li>
+                {/* <li><Link to="/contact" className={styles.menuItem}>Contact</Link></li> */}
             </ul>
         </div>
     </nav>

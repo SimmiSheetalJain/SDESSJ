@@ -24,7 +24,7 @@ const Contact = () => {
             can. That's a promise!
           </div>
 
-          <div>
+          {/* <div>
             <p className="text-[24px] font-bold border-b-4 border-blue-500 pb-3">
               Find Sheetal elsewhere
             </p>
@@ -52,7 +52,7 @@ const Contact = () => {
                 <FaYoutube className="hover:text-[#03fcc6]" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <a
           className="mt-10 object-fill w-fit"
